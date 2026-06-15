@@ -8,7 +8,7 @@
 | **Status** | Production-ready (single-studio deployment) |
 | **Last updated** | June 2026 |
 | **Languages** | **English** (this file) · [Deutsch](pitch_readme.de.md) |
-| **Companion docs** | [`progress_readme.md`](progress_readme.md) · [`supabase/migrations/README.md`](supabase/migrations/README.md) |
+| **Companion docs** | [`progress_readme.md`](progress_readme.md) |
 
 ---
 
