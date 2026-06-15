@@ -8,7 +8,7 @@
 | **Status** | Produktionsreif (Single-Studio-Deployment) |
 | **Stand** | Juni 2026 |
 | **Sprachen** | [English](pitch_readme.md) · **Deutsch** (diese Datei) |
-| **Begleitdokumente** | [`progress_readme.md`](progress_readme.md) · [`supabase/migrations/README.md`](supabase/migrations/README.md) |
+| **Begleitdokumente** | [`progress_readme.md`](progress_readme.md) |
 
 ---
 
@@ -395,35 +395,9 @@ Materialabzug zählt **abgeschlossene Termine** (nach `end_time`), unabhängig v
 
 ---
 
-## 17. Production Checklist
-
-- [x] Buchung, Portal, Posteingang, DSGVO
-- [x] Phasen 0, 4, 5, 5.5, 6 integriert
-- [ ] Stripe / GoCardless live
-- [ ] Fiskaly / SumUp live
-- [ ] Backup-Policy für Art. 9
-
----
-
-## 18. Roadmap
-
-| Priorität | Thema | Status |
-|-----------|-------|--------|
-| — | **Phasen 0, 4, 5, 5.5, 6** | ✅ **Abgeschlossen / integriert** |
-| Hoch | Phase 3 Instagram CRM | ⏸️ Zukunft |
-| Hoch | Live-Keys Fiskaly, SumUp, Stripe, GoCardless | Nur Config |
-| Mittel | Europe/Berlin in Kasse + Settlements | Engineering |
-| Mittel | Anzahlungen in Provisionslogik | Produktentscheidung |
-| Mittel | Payment-Job Unique Constraint | Engineering |
-| Mittel | Admin-UI für Fiskaly/SumUp-Keys | UX |
-| Mittel | SumUp-Webhook | POS-Härtung |
-
----
-
 <p align="center">
   <sub>
     <a href="pitch_readme.md">English</a> ·
     <a href="progress_readme.md">Build-Chronologie</a> ·
-    <a href="supabase/migrations/README.md">Migrationen</a>
   </sub>
 </p>
