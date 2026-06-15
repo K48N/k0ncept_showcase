@@ -431,53 +431,9 @@ Material deductions count **completed appointments** in period (by `end_time`), 
 
 ---
 
-## 17. Production checklist
-
-### Core platform
-- [x] Online booking + WASM references + overlap trigger
-- [x] Admin inbox + deposit workflow + portal
-- [x] Email queue + Posteingang
-- [x] GDPR export, erasure, retention
-- [x] Role-based admin + artist profile
-
-### Phases 0, 4, 5, 5.5, 6
-- [x] Stations + station overlap
-- [x] Reference cleanup on complete (ASR-022)
-- [x] Waiver kiosk + separate tokens
-- [x] POS + mock TSE/SumUp + receipts + cash journal
-- [x] Inventory + guest expiry + commission statements
-- [x] Private buckets for waivers + settlements
-
-### To activate live payments / fiscal
-- [ ] Stripe live keys
-- [ ] GoCardless bank link
-- [ ] Fiskaly TSS credentials
-- [ ] SumUp merchant code
-- [ ] Ops: Supabase backup retention policy for Art. 9
-
----
-
-## 18. Roadmap
-
-| Priority | Item | Status |
-|----------|------|--------|
-| — | **Phases 0, 4, 5, 5.5, 6** | ✅ **Complete / integrated** |
-| **High** | Phase 3: Instagram Omnichannel CRM | ⏸️ Future — Posteingang email live |
-| **High** | Fiskaly + SumUp live keys | Config only |
-| **High** | Stripe + GoCardless live keys | Config only |
-| **Medium** | Europe/Berlin bounds for settlements + POS journal | Engineering |
-| **Medium** | Settlement logic: include deposits / appointment value | Product decision |
-| **Medium** | Payment job unique constraint / row locks | Engineering |
-| **Medium** | Admin UI for Fiskaly/SumUp keys | UX |
-| **Medium** | SumUp webhook for async terminal confirmation | Phase 5 hardening |
-| **Low** | Instagram DM ingestion | Phase 3 |
-
----
-
 <p align="center">
   <sub>
     <a href="pitch_readme.de.md">Deutsch</a> ·
     <a href="progress_readme.md">Build chronology</a> ·
-    <a href="supabase/migrations/README.md">Migrations</a>
   </sub>
 </p>
